@@ -1,0 +1,14 @@
+{
+  "name": "rnnjs",
+  "version": "0.0.1",
+  "description": "Simple Recurrent Neural Networks (RNN) implementation with JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yusuke Sugomori",
+  "license": "MIT",
+  "dependencies": {
+    "seedrandom": "^2.4.2"
+  }
+}
