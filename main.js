@@ -14,9 +14,9 @@ function main() {
   const N_IN = 1;
   const N_HIDDEN = 4;
   const N_OUT = 1;
-  const TRUNCATED_TIME = 3;
-  const LEARNING_RATE = 0.05;
-  const EPOCHS = 50;
+  const TRUNCATED_TIME = 4;
+  const LEARNING_RATE = 0.01;
+  const EPOCHS = 100;
 
   let classifier = new RNN(N_IN, N_HIDDEN, N_OUT, TRUNCATED_TIME, LEARNING_RATE, math.fn.tanh, rng);
 

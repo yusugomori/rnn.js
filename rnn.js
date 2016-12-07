@@ -102,6 +102,8 @@ class RNN {
     this.U = math.sub(this.U, math.mul(learningRate, grad.U));
     this.V = math.sub(this.V, math.mul(learningRate, grad.V));
     this.W = math.sub(this.W, math.mul(learningRate, grad.W));
+    this.b = math.sub(this.b, math.mul(learningRate, grad.b));
+    this.c = math.sub(this.c, math.mul(learningRate, grad.c));
   }
 
   predict(x) {
