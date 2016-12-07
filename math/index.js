@@ -6,15 +6,6 @@ module.exports = {
   fn:        require('./fn'),
   operator:  operator,
   random:    require('./random'),
-
-  // aliases
-  // dimension: operator.dimension,
-  // dim:       operator.dim,
-  // dot:       operator.dot,
-  // multiply:  operator.multiply,
-  // mul:       operator.mul,
-  // transpose: operator.transpose,
-  // T:         operator.T
 };
 
 
